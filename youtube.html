@@ -1,39 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youtube.com</title>
     <link rel="stylesheet" href="youtube.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="main-container">
-      <div class="header-container">
-        <div class="left-header">
-          <div class="icon-container hamburger">
-            <a href="#"><svg
-              data-slot="icon"
-              fill="none"
-              stroke-width="1.5"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              ></path>
-            </svg> </a>
-          </div>
-          <div class="logo-container">
-            <a href="#"><img src="../Images/youtube logo.svg" alt="ytd-logo" /></a>
-          </div>
-        </div>
-        <div class="middle-header">
-          <form class="search-container">
-            <!-- <div class="left-search-icon">
+        <div class="header-container">
+            <div class="left-header">
+                <div class="icon-container hamburger">
+                    <a href="#"><svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                        </svg> </a>
+                </div>
+                <div class="logo-container">
+                    <a href="#"><img src="../Images/youtube logo.svg" alt="ytd-logo" /></a>
+                </div>
+            </div>
+            <div class="middle-header">
+                <form class="search-container">
+                    <!-- <div class="left-search-icon">
                 <svg
                 data-slot="icon"
                 fill="none"
@@ -50,1248 +42,1236 @@
                 ></path>
               </svg>
             </div> -->
-            <input type="search" placeholder="Search" name="search" />
-            <button class="search-icon">
-              <a href="#"><svg
-                data-slot="icon"
-                fill="none"
-                stroke-width="1.5"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                ></path>
-              </svg></a>
-            </button>
-          </form>
-          <div class="microphone-icon">
-           <a href="#"> <img src="../Images/microphone/solid.svg" alt="voice control"></a>
-          </div>
+                    <input type="search" placeholder="Search" name="search" />
+                    <button class="search-icon">
+                        <a href="#"><svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z">
+                                </path>
+                            </svg></a>
+                    </button>
+                </form>
+                <div class="microphone-icon">
+                    <a href="#"> <img src="../Images/microphone/solid.svg" alt="voice control"></a>
+                </div>
+            </div>
+            <div class="right-header">
+                <div class="create-video">
+                    <a href="#"> <img src="../Images/create video.svg" alt=""> </a>
+                </div>
+
+                <div class="create-video download">
+                    <a href="#"> <img src="../Images/download.svg" alt=""> </a>
+                </div>
+
+                <div class="create-video mobile-search">
+                    <a href="#"> <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z">
+                            </path>
+                        </svg> </a>
+                </div>
+                <div class="notification">
+                    <a href="#"> <img src="../Images/notifications.svg" alt=""></a>
+                </div>
+                <div class="avatar">
+                    <a href="#"> <img src="../Images/Avatar.jpg" alt="profic pic" /></a>
+                </div>
+            </div>
         </div>
-        <div class="right-header">
-          <div class="create-video">
-           <a href="#"> <img src="../Images/create video.svg" alt=""> </a>
-          </div>
 
-          <div class="create-video download">
-           <a href="#"> <img src="../Images/download.svg" alt=""> </a>
-          </div>
+        <div class="sidenav-container-and-content-area">
+            <div class="sidenav-container">
+                <div class="menu-group">
+                    <!-- menu list for home -->
+                    <a href="#" class="Menu-links selected">
+                        <div class="icon">
+                            <img src="../Images/Home/solid.svg" alt="Home">
+                        </div>
+                        <div class="icon-text selectedIcon">
+                            <p>Home</p>
+                        </div>
+                    </a>
 
-          <div class="create-video mobile-search">
-           <a href="#"> <svg
-            data-slot="icon"
-            fill="none"
-            stroke-width="1.5"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-            ></path>
-          </svg> </a>
-          </div>
-          <div class="notification">
-           <a href="#"> <img src="../Images/notifications.svg" alt=""></a>
-          </div>
-          <div class="avatar">
-           <a href="#"> <img src="../Images/Avatar.jpg" alt="profic pic" /></a>
-          </div>
-        </div>
-      </div>
+                    <!-- menu list for Shorts -->
+                    <a href="#" class="Menu-links">
+                        <div class="icon">
+                            <img src="../Images/shorts/outline.svg" alt="Shorts">
+                        </div>
+                        <div class="icon-text">
+                            <p>Shorts</p>
+                        </div>
+                    </a>
 
-    <div class="sidenav-container-and-content-area">
-        <div class="sidenav-container">
-           <div class="menu-group">
-            <!-- menu list for home -->
-            <a href="#" class="Menu-links selected">
-                <div class="icon">
-                    <img src="../Images/Home/solid.svg" alt="Home">
+                    <!-- menu list for subscriptions -->
+                    <a href="#" class="Menu-links">
+                        <div class="icon">
+                            <img src="../Images/sub/outline.svg" alt="Subscriptions">
+                        </div>
+                        <div class="icon-text">
+                            <p>Subscriptions</p>
+                        </div>
+                    </a>
+                    <!-- menu list for you media query -->
+                    <a href="#" class="Menu-links you-mediaQuery">
+                        <div class="icon">
+                            <img src="../Images/play/outline.svg" alt="Subscriptions">
+                        </div>
+                        <div class="icon-text">
+                            <p>You</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="icon-text selectedIcon">
-                    <p>Home</p>
-                </div>
-            </a>
 
-             <!-- menu list for Shorts -->
-            <a href="#" class="Menu-links">
-                <div class="icon">
-                    <img src="../Images/shorts/outline.svg" alt="Shorts">
-                </div>
-                <div class="icon-text">
-                    <p>Shorts</p>
-                </div>
-            </a>
+                <hr>
 
-             <!-- menu list for subscriptions -->
-            <a href="#" class="Menu-links">
-                <div class="icon">
-                    <img src="../Images/sub/outline.svg" alt="Subscriptions">
-                </div>
-                <div class="icon-text">
-                    <p>Subscriptions</p>
-                </div>
-            </a>
-             <!-- menu list for you media query -->
-            <a href="#" class="Menu-links you-mediaQuery">
-                <div class="icon">
-                    <img src="../Images/play/outline.svg" alt="Subscriptions">
-                </div>
-                <div class="icon-text">
-                    <p>You</p>
-                </div>
-            </a>
-           </div>
-
-           <hr>
-
-            <!-- menu group for you -->
-           <div class="menu-with-heading-group">
-            <div class="group-heading">
-                <a href="#">
-                    <div class="heading-text">
-                        <h3>You</h3>
+                <!-- menu group for you -->
+                <div class="menu-with-heading-group">
+                    <div class="group-heading">
+                        <a href="#">
+                            <div class="heading-text">
+                                <h3>You</h3>
+                            </div>
+                            <div class="heading-icon">
+                                <img src="../Images/right chevron.svg" alt="right chevron">
+                            </div>
+                        </a>
                     </div>
-                    <div class="heading-icon">
+
+                    <div class="menu-group">
+                        <!-- menu list for your channel -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/yourchannel/outline.svg" alt="your channel">
+                            </div>
+                            <div class="icon-text">
+                                <p>Your channel</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for history -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/history/outline.svg" alt="history">
+                            </div>
+                            <div class="icon-text">
+                                <p>History</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for playlist -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/playlist/outline.svg" alt="playlist">
+                            </div>
+                            <div class="icon-text">
+                                <p>Playlist</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for your videos -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/yourvideos/outline.svg" alt="your videos">
+                            </div>
+                            <div class="icon-text">
+                                <p>Your videos</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for watch later -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/watchlater/outline.svg" alt="watch later">
+                            </div>
+                            <div class="icon-text">
+                                <p>Watch later</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for liked videos -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/like/outline.svg" alt="liked videos">
+                            </div>
+                            <div class="icon-text">
+                                <p>Liked videos</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <!-- menu group for subcriptions -->
+                <div class="menu-with-heading-group">
+                    <div class="heading-text">
+                        <h3>Subscriptions</h3>
+                    </div>
+
+                    <div class="menu-group">
+                        <!-- menu list for Ewamaka -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="/Images/ewamaka.jpg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>Ewamaka</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for watch Pastor -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="../Images/PC.jpeg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>WatchPastorChris</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Devanddesign -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="../Images/dev design logo.jpeg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>Dev and Design</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for your Taaoma -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="../Images/taaoma.jpg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>TAAOMA</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Relaxed guy -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="../Images/relaxed-guy.jpg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>The Relaxed Guy</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Zuri -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="../Images/zuri.jpg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>The Zuri Team</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Zeelicious -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="../Images/zeelicious.jpg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>Zeelicious Foods</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Sandra -->
+                        <a href="#" class="Menu-links">
+                            <div class="subIcon icon">
+                                <img src="../Images/sandra.jpg" alt="subscriber">
+                            </div>
+                            <div class="icon-text">
+                                <p>Sandra Okeke</p>
+                            </div>
+
+                            <!-- menu list for show more -->
+                            <a href="#" class="Menu-links">
+                                <div class="icon">
+                                    <img src="../Images/down chevron.svg" alt="sport">
+                                </div>
+                                <div class="icon-text">
+                                    <p>Show more</p>
+                                </div>
+                            </a>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <!-- menu group for explore -->
+                <div class="menu-with-heading-group">
+                    <div class="heading-text">
+                        <h3>Explore</h3>
+                    </div>
+
+                    <div class="menu-group">
+                        <!-- menu list for trending -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/trending/outline.svg" alt="trending">
+                            </div>
+                            <div class="icon-text">
+                                <p>Trending</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for music -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/music/outline.svg" alt="music">
+                            </div>
+                            <div class="icon-text">
+                                <p>Music</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for gaming -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/Gaming/outline.svg" alt="gaming">
+                            </div>
+                            <div class="icon-text">
+                                <p>Gaming</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for your news -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/News/outline.svg" alt="news">
+                            </div>
+                            <div class="icon-text">
+                                <p>News</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for sport -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="../Images/Sport/outline.svg" alt="sport">
+                            </div>
+                            <div class="icon-text">
+                                <p>Sport</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <!-- More from youtube -->
+                <div class="menu-with-heading-group">
+                    <div class="heading-text">
+                        <h3>More from youtube</h3>
+                    </div>
+                    <div class="menu-group">
+                        <!-- menu list for Youtube Premium -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="/Images/premium.svg" alt="Premium">
+                            </div>
+                            <div class="icon-text">
+                                <p>Youtube Premium</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Youtube Studio -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="/Images/studio.svg" alt="studio">
+                            </div>
+                            <div class="icon-text">
+                                <p>Youtube Studio</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Youtube Music -->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="/Images/music.svg" alt="music">
+                            </div>
+                            <div class="icon-text">
+                                <p>Youtube Music</p>
+                            </div>
+                        </a>
+
+                        <!-- menu list for Youtube Kids-->
+                        <a href="#" class="Menu-links">
+                            <div class="icon">
+                                <img src="/Images/kids.svg" alt="kids">
+                            </div>
+                            <div class="icon-text">
+                                <p>Youtube Kids</p>
+                            </div>
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <!-- Navbar bottom extras -->
+
+                <div class="menu-group botton-extras">
+                    <!-- menu list for settings -->
+                    <a href="#" class="Menu-links">
+                        <div class="icon">
+                            <img src="/Images/settings.svg" alt="settings">
+                        </div>
+                        <div class="icon-text">
+                            <p>Settings</p>
+                        </div>
+                    </a>
+
+                    <!-- menu list for report history-->
+                    <a href="#" class="Menu-links">
+                        <div class="icon">
+                            <img src="/Images/report.svg" alt="report history">
+                        </div>
+                        <div class="icon-text">
+                            <p>Report history</p>
+                        </div>
+                    </a>
+
+                    <!-- menu list for help -->
+                    <a href="#" class="Menu-links">
+                        <div class="icon">
+                            <img src="/Images/help.svg" alt="help">
+                        </div>
+                        <div class="icon-text">
+                            <p>Help</p>
+                        </div>
+                    </a>
+
+                    <!-- menu list for send feedback-->
+                    <a href="#" class="Menu-links">
+                        <div class="icon">
+                            <img src="/Images/feedback.svg" alt="send feedback">
+                        </div>
+                        <div class="icon-text">
+                            <p>Send feedback</p>
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <hr>
+                <div class="navBarFooter">
+                    <div class="footer">
+                        <a href="#">About</a>
+                        <a href="#">Press</a>
+                        <a href="#">Copyright</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">Creators</a>
+                        <a href="#">Advertise</a>
+                        <a href="#">Developers</a>
+                    </div>
+                    <div class="footer">
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Policy & safety</a>
+                        <a href="#">How Youtube works</a>
+                        <a href="#">Test new features</a>
+                    </div>
+
+                    <div class="copyright">
+                        <p>© 2024 Google LLC</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="content-and-filter-area-container">
+                <div class="chips-and-chevron-container">
+                    <div class="filter-option-container">
+                        <div class="filter explore_menu">
+                            <a href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.23 13.08C10.94 12.87 10.75 12.57 10.69 12.22C10.63 11.87 10.71 11.51 10.92 11.23C11.13 10.94 11.43 10.75 11.78 10.69C12.13 10.63 12.48 10.71 12.77 10.92C13.06 11.13 13.25 11.43 13.31 11.78C13.37 12.13 13.29 12.49 13.08 12.77C12.87 13.06 12.57 13.25 12.22 13.31C12.15 13.32 12.07 13.33 12 13.33C11.72 13.33 11.45 13.25 11.23 13.08ZM22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12ZM18.03 5.97L9.8 9.8L5.97 18.03L14.2 14.2L18.03 5.97Z"
+                                        fill="black">
+                                </svg></a>
+
+                        </div>
+
+                        <div class="selected-filter">
+                            <a href="#">All</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Music</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Trailers</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Nollywood</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Marriage Proposals</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Dramedy</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">News</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Costumes dramas</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Couples</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Reggae</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">African Music</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Documentary</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Hollywood Movies</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Food</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Affirmations</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Electronics</a>
+                        </div>
+
+                        <div class="filter">
+                            <a href="#">Gospel Music</a>
+                        </div>
+                    </div>
+
+                    <div class="chip-chevron-container">
                         <img src="../Images/right chevron.svg" alt="right chevron">
                     </div>
-                </a>
-            </div>
-
-            <div class="menu-group">
-                <!-- menu list for your channel -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/yourchannel/outline.svg" alt="your channel">
-                    </div>
-                    <div class="icon-text">
-                        <p>Your channel</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for history -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/history/outline.svg" alt="history">
-                    </div>
-                    <div class="icon-text">
-                        <p>History</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for playlist -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/playlist/outline.svg" alt="playlist">
-                    </div>
-                    <div class="icon-text">
-                        <p>Playlist</p>
-                    </div>
-                </a>
-
-                 <!-- menu list for your videos -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/yourvideos/outline.svg" alt="your videos">
-                    </div>
-                    <div class="icon-text">
-                        <p>Your videos</p>
-                    </div>
-                </a>
-
-                 <!-- menu list for watch later -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/watchlater/outline.svg" alt="watch later">
-                    </div>
-                    <div class="icon-text">
-                        <p>Watch later</p>
-                    </div>
-                </a>
-
-                 <!-- menu list for liked videos -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/like/outline.svg" alt="liked videos">
-                    </div>
-                    <div class="icon-text">
-                        <p>Liked videos</p>
-                    </div>
-                </a>
-               </div>
-
-           </div>
-
-           <hr>
-
-           <!-- menu group for subcriptions -->
-           <div class="menu-with-heading-group">
-            <div class="heading-text">
-                 <h3>Subscriptions</h3>
-            </div>
-
-        <div class="menu-group">
-            <!-- menu list for Ewamaka -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="/Images/ewamaka.jpg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>Ewamaka</p>
-                </div>
-            </a>
-
-             <!-- menu list for watch Pastor -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="../Images/PC.jpeg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>WatchPastorChris</p>
-                </div>
-            </a>
-
-             <!-- menu list for Devanddesign -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="../Images/dev design logo.jpeg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>Dev and Design</p>
-                </div>
-            </a>
-
-             <!-- menu list for your Taaoma -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="../Images/taaoma.jpg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>TAAOMA</p>
-                </div>
-            </a>
-
-             <!-- menu list for Relaxed guy -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="../Images/relaxed-guy.jpg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>The Relaxed Guy</p>
-                </div>
-            </a>
-
-             <!-- menu list for Zuri -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="../Images/zuri.jpg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>The Zuri Team</p>
-                </div>
-            </a>
-
-             <!-- menu list for Zeelicious -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="../Images/zeelicious.jpg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>Zeelicious Foods</p>
-                </div>
-            </a>
-
-             <!-- menu list for Sandra -->
-            <a href="#" class="Menu-links">
-                <div class="subIcon icon">
-                    <img src="../Images/sandra.jpg" alt="subscriber">
-                </div>
-                <div class="icon-text">
-                    <p>Sandra Okeke</p>
                 </div>
 
-             <!-- menu list for show more -->
-            <a href="#" class="Menu-links">
-                <div class="icon">
-                    <img src="../Images/down chevron.svg" alt="sport">
-                </div>
-                <div class="icon-text">
-                    <p>Show more</p>
-                </div>
-            </a>
-           </div>
-
-       </div>
-
-       <hr>
-
-            <!-- menu group for explore -->
-           <div class="menu-with-heading-group">
-                <div class="heading-text">
-                     <h3>Explore</h3>
-                </div>
-
-            <div class="menu-group">
-                <!-- menu list for trending -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/trending/outline.svg" alt="trending">
-                    </div>
-                    <div class="icon-text">
-                        <p>Trending</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for music -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/music/outline.svg" alt="music">
-                    </div>
-                    <div class="icon-text">
-                        <p>Music</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for gaming -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/Gaming/outline.svg" alt="gaming">
-                    </div>
-                    <div class="icon-text">
-                        <p>Gaming</p>
-                    </div>
-                </a>
-
-                 <!-- menu list for your news -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/News/outline.svg" alt="news">
-                    </div>
-                    <div class="icon-text">
-                        <p>News</p>
-                    </div>
-                </a>
-
-                 <!-- menu list for sport -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="../Images/Sport/outline.svg" alt="sport">
-                    </div>
-                    <div class="icon-text">
-                        <p>Sport</p>
-                    </div>
-                </a>
-               </div>
-
-           </div>
-
-           <hr>
-
-           <!-- More from youtube -->
-           <div class="menu-with-heading-group">
-            <div class="heading-text">
-                 <h3>More from youtube</h3>
-            </div>
-            <div class="menu-group">
-                <!-- menu list for Youtube Premium -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/premium.svg" alt="Premium">
-                    </div>
-                    <div class="icon-text">
-                        <p>Youtube Premium</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for Youtube Studio -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/studio.svg" alt="studio">
-                    </div>
-                    <div class="icon-text">
-                        <p>Youtube Studio</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for Youtube Music -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/music.svg" alt="music">
-                    </div>
-                    <div class="icon-text">
-                        <p>Youtube Music</p>
-                    </div>
-                </a>
-
-                 <!-- menu list for Youtube Kids-->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/kids.svg" alt="kids">
-                    </div>
-                    <div class="icon-text">
-                        <p>Youtube Kids</p>
-                    </div>
-                </a>
-
-                 
-               </div>
-
-        </div>
-
-            <hr>
-
-            <!-- Navbar bottom extras -->
-        
-            <div class="menu-group botton-extras">
-                <!-- menu list for settings -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/settings.svg" alt="settings">
-                    </div>
-                    <div class="icon-text">
-                        <p>Settings</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for report history-->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/report.svg" alt="report history">
-                    </div>
-                    <div class="icon-text">
-                        <p>Report history</p>
-                    </div>
-                </a>
-    
-                 <!-- menu list for help -->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/help.svg" alt="help">
-                    </div>
-                    <div class="icon-text">
-                        <p>Help</p>
-                    </div>
-                </a>
-
-                 <!-- menu list for send feedback-->
-                <a href="#" class="Menu-links">
-                    <div class="icon">
-                        <img src="/Images/feedback.svg" alt="send feedback">
-                    </div>
-                    <div class="icon-text">
-                        <p>Send feedback</p>
-                    </div>
-                </a>
-
-                 
-               </div>
-
-         <hr>
-            <div class="navBarFooter">
-                <div class="footer">
-                    <a href="#">About</a>
-                    <a href="#">Press</a>
-                    <a href="#">Copyright</a>
-                    <a href="#">Contact us</a>
-                    <a href="#">Creators</a>
-                    <a href="#">Advertise</a>
-                    <a href="#">Developers</a>
-                </div>
-                <div class="footer">
-                    <a href="#">Terms</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Policy & safety</a>
-                    <a href="#">How Youtube works</a>
-                    <a href="#">Test new features</a>
-                </div>
-
-                <div class="copyright">
-                    <p>© 2024 Google LLC</p>
-                </div>
-            </div>
-        
-        
-      </div>
+                <div class="content-area-container">
+                    <div class="contentNormal-container topContent_container">
 
 
-      <div class="content-and-filter-area-container">
-        <div class="chips-and-chevron-container">
-        <div class="filter-option-container">
-            <div class="filter explore_menu">
-                <a href="#">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path 
-                    d="M11.23 13.08C10.94 12.87 10.75 12.57 10.69 12.22C10.63 11.87 10.71 11.51 10.92 11.23C11.13 10.94 11.43 10.75 11.78 10.69C12.13 10.63 12.48 10.71 12.77 10.92C13.06 11.13 13.25 11.43 13.31 11.78C13.37 12.13 13.29 12.49 13.08 12.77C12.87 13.06 12.57 13.25 12.22 13.31C12.15 13.32 12.07 13.33 12 13.33C11.72 13.33 11.45 13.25 11.23 13.08ZM22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12ZM18.03 5.97L9.8 9.8L5.97 18.03L14.2 14.2L18.03 5.97Z" fill="black">
-                    </svg></a>
-                    
-               </div>
-
-           <div class="selected-filter">
-            <a href="#">All</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Music</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Trailers</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Nollywood</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Marriage Proposals</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Dramedy</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">News</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Costumes dramas</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Couples</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Reggae</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">African Music</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Documentary</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Hollywood Movies</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Food</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Affirmations</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Electronics</a>
-           </div>
-
-           <div class="filter">
-            <a href="#">Gospel Music</a>
-           </div>
-        </div>
-
-        <div class="chip-chevron-container">
-            <img src="../Images/right chevron.svg" alt="right chevron">
-        </div>
-    </div>
-
-        <div class="content-area-container">
-            <div class="contentNormal-container topContent_container">
-                
-                
-                <div class="content-container">
-                    <div class="background-image dev-design">
-                        <div class="bacground-text-block">
-                            <p>3:54</p>
-                        </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/dev design logo.jpeg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>Javascript Tutorial 2024 - Complete Javascript Bootcamp</h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>Dev And Design</p>
+                        <div class="content-container">
+                            <div class="background-image dev-design">
+                                <div class="bacground-text-block">
+                                    <p>3:54</p>
                                 </div>
-                                <!-- <div class="creator-logo">
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/dev design logo.jpeg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>Javascript Tutorial 2024 - Complete Javascript Bootcamp</h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>Dev And Design</p>
+                                            </div>
+                                            <!-- <div class="creator-logo">
                                     <img src="../Images/dev design logo.jpeg" alt="official artist channel">
                                 </div> -->
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>285 views</p>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>285 views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>1 month ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>1 month ago</p>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                        </div>
-                    </div>
 
-                </div>
-                <div class="content-container second_container">
-                    <div class="background-image Aliena-Cai">
-                        <div class="bacground-text-block">
-                            <p>3:54</p>
                         </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/aliena.jpeg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>If I Started UX in 2024, I'd Do This.</h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>Aliena Cai</p>
+                        <div class="content-container second_container">
+                            <div class="background-image Aliena-Cai">
+                                <div class="bacground-text-block">
+                                    <p>3:54</p>
                                 </div>
-                                <!-- <div class="creator-logo">
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/aliena.jpeg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>If I Started UX in 2024, I'd Do This.</h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>Aliena Cai</p>
+                                            </div>
+                                            <!-- <div class="creator-logo">
                                     <img src="../Images/dev design logo.jpeg" alt="official artist channel">
                                 </div> -->
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>272k views</p>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>272k views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>6 month ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>6 month ago</p>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                        </div>
-                    </div>
 
-                </div>
-                <div class="content-container third_container">
-                    <div class="background-image lily">
-                        <div class="bacground-text-block">
-                            <p>3:54</p>
                         </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/lily-a.jpg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>How I'd learn UX Design (if I could start over)</h1>
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="creatorAndViewsinfo">
-                                <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>
-                                        Lily Cameron</p>
+                        <div class="content-container third_container">
+                            <div class="background-image lily">
+                                <div class="bacground-text-block">
+                                    <p>3:54</p>
                                 </div>
-                                <!-- <div class="creator-logo">
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/lily-a.jpg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>How I'd learn UX Design (if I could start over)</h1>
+                                    </div>
+                                    <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                    <div class="creatorAndViewsinfo">
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>
+                                                    Lily Cameron</p>
+                                            </div>
+                                            <!-- <div class="creator-logo">
                                     <img src="../Images/dev design logo.jpeg" alt="official artist channel">
                                 </div> -->
-                            </div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>61k views</p>
-                                </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>2 month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <!-- Shorts-normal-container -->
-            <div class="shorts-container ">
-                <div class="shortsHeaderWithCancel">
-                    <div class="shortsLogoAndtext-container ">
-                       <div class="shortsLogo">
-                        <img src="/Images/shorts/solid.svg" alt="Shorts">
-                       </div>
-                       <div class="shortsText">
-                        <h3>Shorts</h3>
-                       </div>
-                    </div>
-                    <div class="shortsCancel">
-                        <svg 
-                        data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path 
-                            stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"
-                            ></path>
-                          </svg>
-                    </div>
-                </div>
-
-                <div class="shortContent-container">
-                    <!-- Short 1 -->
-                    <div class="shortContent shortContent_mobile">
-                        <div class="shortsImgAndText_container">
-                            <div class="shortsBgImg layi">
-                                <div class="shortsTextInfo_container textMobile">
-                                    <div class="shortsDateAndEllipses">
-                                        <div class="shortsDate">
-                                            <h2>Motivation is important 🤣😂😭 /Layiwasabi</h2>
                                         </div>
-                                        <div class="content-info-ellipses">
-                                            <svg
-                                            data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                               <path
-                                                clip-rule="evenodd" fill-rule="evenodd" d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
-                                                ></path>
-                                             </svg>
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>61k views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>2 month ago</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="shortsViewInfo">
-                                        <p>3.9M views</p>
-                                    </div>
+                                </div>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
                                 </div>
                             </div>
-                            <div class="shortsTextInfo_container">
-                                <div class="shortsDateAndEllipses">
-                                    <div class="shortsDate">
-                                        <h2>Motivation is important 🤣😂😭 /Layiwasabi</h2>
-                                    </div>
-                                    <div class="content-info-ellipses">
-                                        <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                                    </div>
-                                </div>
-                                <div class="shortsViewInfo">
-                                    <p>3.9M views</p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
-                     <!-- Short 2 -->
-                    <div class="shortContent shortContent_mobile">
-                        <div class="shortsImgAndText_container">
-                            <div class="shortsBgImg food">
-                                <div class="shortsTextInfo_container textMobile">
-                                    <div class="shortsDateAndEllipses">
-                                        <div class="shortsDate">
-                                            <h2>When you’re craving KFC so you just make a better version at home</h2>
-                                        </div>
-                                        <div class="content-info-ellipses">
-                                            <svg
-                                             data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                                <path
-                                                 clip-rule="evenodd" fill-rule="evenodd" d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
-                                                 ></path>
-                                              </svg>
-                                        </div>
-                                    </div>
-                                    <div class="shortsViewInfo">
-                                        <p>380k views</p>
-                                    </div>
+
+
+
+                    <!-- Shorts-normal-container -->
+                    <div class="shorts-container ">
+                        <div class="shortsHeaderWithCancel">
+                            <div class="shortsLogoAndtext-container ">
+                                <div class="shortsLogo">
+                                    <img src="/Images/shorts/solid.svg" alt="Shorts">
+                                </div>
+                                <div class="shortsText">
+                                    <h3>Shorts</h3>
                                 </div>
                             </div>
-                            <div class="shortsTextInfo_container">
-                                <div class="shortsDateAndEllipses">
-                                    <div class="shortsDate">
-                                        <h2>When you’re craving KFC so you just make a better version at home</h2>
-                                    </div>
-                                    <div class="content-info-ellipses">
-                                        <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                                    </div>
-                                </div>
-                                <div class="shortsViewInfo">
-                                    <p>380k views</p>
-                                </div>
+                            <div class="shortsCancel">
+                                <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12">
+                                    </path>
+                                </svg>
                             </div>
                         </div>
-                    </div>
-                     <!-- Short 3 -->
-                    <div class="shortContent shortContent_mobile">
-                        <div class="shortsImgAndText_container">
-                            <div class="shortsBgImg zeelicious-shorts">
-                                <div class="shortsTextInfo_container textMobile">
-                                    <div class="shortsDateAndEllipses">
-                                        <div class="shortsDate">
-                                            <h2>A very simple way to make healthy eating a lifestyle… #shorts #zeeliciousfoods </h2>
-                                        </div>
-                                        <div class="content-info-ellipses">
-                                            <svg
-                                            data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                               <path
-                                                clip-rule="evenodd" fill-rule="evenodd" d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
-                                                ></path>
-                                             </svg>
+
+                        <div class="shortContent-container">
+                            <!-- Short 1 -->
+                            <div class="shortContent shortContent_mobile">
+                                <div class="shortsImgAndText_container">
+                                    <div class="shortsBgImg layi">
+                                        <div class="shortsTextInfo_container textMobile">
+                                            <div class="shortsDateAndEllipses">
+                                                <div class="shortsDate">
+                                                    <h2>Motivation is important 🤣😂😭 /Layiwasabi</h2>
+                                                </div>
+                                                <div class="content-info-ellipses">
+                                                    <svg data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                        <path clip-rule="evenodd" fill-rule="evenodd"
+                                                            d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="shortsViewInfo">
+                                                <p>3.9M views</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="shortsViewInfo">
-                                        <p>18k views</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shortsTextInfo_container">
-                                <div class="shortsDateAndEllipses">
-                                    <div class="shortsDate">
-                                        <h2>A very simple way to make healthy eating a lifestyle… #shorts #zeeliciousfoods </h2>
-                                    </div>
-                                    <div class="content-info-ellipses">
-                                        <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                                    </div>
-                                </div>
-                                <div class="shortsViewInfo">
-                                    <p>18k views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Short 4-->
-                    <div class="shortContent shortContent_mobile">
-                        <div class="shortsImgAndText_container">
-                            <div class="shortsBgImg baby">
-                                <div class="shortsTextInfo_container textMobile">
-                                    <div class="shortsDateAndEllipses">
-                                        <div class="shortsDate">
-                                            <h2>Baby was SO into her story! 😂😍❤️</h2>
+                                    <div class="shortsTextInfo_container">
+                                        <div class="shortsDateAndEllipses">
+                                            <div class="shortsDate">
+                                                <h2>Motivation is important 🤣😂😭 /Layiwasabi</h2>
+                                            </div>
+                                            <div class="content-info-ellipses">
+                                                <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                            </div>
                                         </div>
-                                        <div class="content-info-ellipses">
-                                            <svg
-                                            data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                               <path
-                                                clip-rule="evenodd" fill-rule="evenodd" d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
-                                                ></path>
-                                             </svg>
+                                        <div class="shortsViewInfo">
+                                            <p>3.9M views</p>
                                         </div>
                                     </div>
-                                    <div class="shortsViewInfo">
-                                        <p>1M views</p>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="shortsTextInfo_container">
-                                <div class="shortsDateAndEllipses">
-                                    <div class="shortsDate">
-                                        <h2>Baby was SO into her story! 😂😍❤️</h2>
-                                    </div>
-                                    <div class="content-info-ellipses">
-                                        <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                                    </div>
-                                </div>
-                                <div class="shortsViewInfo">
-                                    <p>1M views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- Short 5 -->
-                    <div class="shortContent shortContent_mobile">
-                        <div class="shortsImgAndText_container">
-                            <div class="shortsBgImg fitness">
-                                <div class="shortsTextInfo_container textMobile">
-                                    <div class="shortsDateAndEllipses">
-                                        <div class="shortsDate">
-                                            <h2>Reality vs. what you see 🤷‍♂️</h2>
-                                        </div>
-                                        <div class="content-info-ellipses">
-                                            <svg
-                                             data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                                <path
-                                                 clip-rule="evenodd" fill-rule="evenodd" d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
-                                                 ></path>
-                                              </svg>
+                            <!-- Short 2 -->
+                            <div class="shortContent shortContent_mobile">
+                                <div class="shortsImgAndText_container">
+                                    <div class="shortsBgImg food">
+                                        <div class="shortsTextInfo_container textMobile">
+                                            <div class="shortsDateAndEllipses">
+                                                <div class="shortsDate">
+                                                    <h2>When you’re craving KFC so you just make a better version at
+                                                        home</h2>
+                                                </div>
+                                                <div class="content-info-ellipses">
+                                                    <svg data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                        <path clip-rule="evenodd" fill-rule="evenodd"
+                                                            d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="shortsViewInfo">
+                                                <p>380k views</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="shortsViewInfo">
-                                        <p>385k views</p>
+                                    <div class="shortsTextInfo_container">
+                                        <div class="shortsDateAndEllipses">
+                                            <div class="shortsDate">
+                                                <h2>When you’re craving KFC so you just make a better version at home
+                                                </h2>
+                                            </div>
+                                            <div class="content-info-ellipses">
+                                                <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                            </div>
+                                        </div>
+                                        <div class="shortsViewInfo">
+                                            <p>380k views</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="shortsTextInfo_container">
-                                <div class="shortsDateAndEllipses">
-                                    <div class="shortsDate">
-                                        <h2>Reality vs. what you see 🤷‍♂️</h2>
+                            <!-- Short 3 -->
+                            <div class="shortContent shortContent_mobile">
+                                <div class="shortsImgAndText_container">
+                                    <div class="shortsBgImg zeelicious-shorts">
+                                        <div class="shortsTextInfo_container textMobile">
+                                            <div class="shortsDateAndEllipses">
+                                                <div class="shortsDate">
+                                                    <h2>A very simple way to make healthy eating a lifestyle… #shorts
+                                                        #zeeliciousfoods </h2>
+                                                </div>
+                                                <div class="content-info-ellipses">
+                                                    <svg data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                        <path clip-rule="evenodd" fill-rule="evenodd"
+                                                            d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="shortsViewInfo">
+                                                <p>18k views</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="content-info-ellipses">
-                                        <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                    <div class="shortsTextInfo_container">
+                                        <div class="shortsDateAndEllipses">
+                                            <div class="shortsDate">
+                                                <h2>A very simple way to make healthy eating a lifestyle… #shorts
+                                                    #zeeliciousfoods </h2>
+                                            </div>
+                                            <div class="content-info-ellipses">
+                                                <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                            </div>
+                                        </div>
+                                        <div class="shortsViewInfo">
+                                            <p>18k views</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="shortsViewInfo">
-                                    <p>385k views</p>
+                            </div>
+                            <!-- Short 4-->
+                            <div class="shortContent shortContent_mobile">
+                                <div class="shortsImgAndText_container">
+                                    <div class="shortsBgImg baby">
+                                        <div class="shortsTextInfo_container textMobile">
+                                            <div class="shortsDateAndEllipses">
+                                                <div class="shortsDate">
+                                                    <h2>Baby was SO into her story! 😂😍❤️</h2>
+                                                </div>
+                                                <div class="content-info-ellipses">
+                                                    <svg data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                        <path clip-rule="evenodd" fill-rule="evenodd"
+                                                            d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="shortsViewInfo">
+                                                <p>1M views</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shortsTextInfo_container">
+                                        <div class="shortsDateAndEllipses">
+                                            <div class="shortsDate">
+                                                <h2>Baby was SO into her story! 😂😍❤️</h2>
+                                            </div>
+                                            <div class="content-info-ellipses">
+                                                <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                            </div>
+                                        </div>
+                                        <div class="shortsViewInfo">
+                                            <p>1M views</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Short 5 -->
+                            <div class="shortContent shortContent_mobile">
+                                <div class="shortsImgAndText_container">
+                                    <div class="shortsBgImg fitness">
+                                        <div class="shortsTextInfo_container textMobile">
+                                            <div class="shortsDateAndEllipses">
+                                                <div class="shortsDate">
+                                                    <h2>Reality vs. what you see 🤷‍♂️</h2>
+                                                </div>
+                                                <div class="content-info-ellipses">
+                                                    <svg data-slot="icon" fill="currentColor" viewBox="0 0 24 24"
+                                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                        <path clip-rule="evenodd" fill-rule="evenodd"
+                                                            d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="shortsViewInfo">
+                                                <p>385k views</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shortsTextInfo_container">
+                                        <div class="shortsDateAndEllipses">
+                                            <div class="shortsDate">
+                                                <h2>Reality vs. what you see 🤷‍♂️</h2>
+                                            </div>
+                                            <div class="content-info-ellipses">
+                                                <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                            </div>
+                                        </div>
+                                        <div class="shortsViewInfo">
+                                            <p>385k views</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="shortsShowMore_container">
-                    <hr class="shortsDivider">
-                    <div class="showMoreAndChevron">
-                        <div class="shortsShowMore">
-                            <p>Show more</p>
-                        </div>
-                        <div class="shortsChevron">
-                            <svg 
-                            data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <path
-                                 stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                                 ></path>
-                              </svg>
-                        </div>
-                    </div>
-                    <hr class="shortsDivider">
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-            <div class="contentNormal-container">
-              
-                <div class="content-container">
-                    <div class="background-image hc-finale">
-                        <div class="bacground-text-block">
-                            <p>8:02:33</p>
-                        </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/PN.jpeg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>HALLELUJAH CHALLENGE || MAY/JUNE 2024 || GRAND FINALE</h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>Nathaniel Bassey Main</p>
+                        <div class="shortsShowMore_container">
+                            <hr class="shortsDivider">
+                            <div class="showMoreAndChevron">
+                                <div class="shortsShowMore">
+                                    <p>Show more</p>
                                 </div>
-                                <div class="creator-logo">
-                                    <img src="../Images/music/solid.svg" alt="official artist channel">
+                                <div class="shortsChevron">
+                                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+                                    </svg>
                                 </div>
                             </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>378k views</p>
-                                </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>Streamed 1 day ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="content-container">
-                    <div class="background-image bridgeton-trailer">
-                        <div class="bacground-text-block">
-                            <p>2:19</p>
-                        </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar netflix">
-                            <img src="../Images/netflix logo.svg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>Bridgerton Season 3 | Part 2 Official Trailer | Netflix</h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>Netflix</p>
-                                </div>
-                                <div class="creator-logo">
-                                    <img src="../Images/verified.svg" alt="official artist channel">
-                                </div>
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>3.1M views</p>
-                                </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>2 days ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                            <hr class="shortsDivider">
                         </div>
                     </div>
 
-                </div>
 
-                <div class="content-container">
-                    <div class="background-image sumisola">
-                        <div class="bacground-text-block">
-                            <p>26:07</p>
-                        </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/sumisola img.jpeg">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>SUNMISOLA LIVE/ PROPHETIC WORSHIP MEDLEY</h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>SUNMISOLA AGBEBI
-                                    </p>
-                                </div>
-                                <div class="creator-logo">
-                                    <img src="../Images/verified.svg" alt="official artist channel">
-                                </div>
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>2.9M views</p>
-                                </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>1 year ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                        </div>
-                    </div>
 
-                </div>
 
-                <div class="content-container">
-                    <div class="background-image communion-service">
-                        <div class="bacground-text-block">
-                            <p>49:00</p>
-                        </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/PC.jpeg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>June 2024 is “The Month Of Prayer” - Pastor Chris declares
-                                </h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>WatchPastorChris
-                                    </p>
-                                </div>
-                                <div class="creator-logo">
-                                    <img src="../Images/verified.svg" alt="official artist channel">
-                                </div>
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>25k views</p>
-                                </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>Streamed 1 day ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                        </div>
-                    </div>
 
-                </div>
-                
-                <div class="content-container">
-                    <div class="background-image monster-story">
-                        <div class="bacground-text-block">
-                            <p>11:56</p>
-                        </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/bs logo.jpeg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title">
-                                <h1>The Controversial Rise Of Monster Energy
-                                </h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>
-                                        Business Stories
-                                    </p>
+
+
+
+                    <div class="contentNormal-container">
+
+                        <div class="content-container">
+                            <div class="background-image hc-finale">
+                                <div class="bacground-text-block">
+                                    <p>8:02:33</p>
                                 </div>
-                                <!-- <div class="creator-logo">
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/PN.jpeg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>HALLELUJAH CHALLENGE || MAY/JUNE 2024 || GRAND FINALE</h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>Nathaniel Bassey Main</p>
+                                            </div>
+                                            <div class="creator-logo">
+                                                <img src="../Images/music/solid.svg" alt="official artist channel">
+                                            </div>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>378k views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>Streamed 1 day ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="content-container">
+                            <div class="background-image bridgeton-trailer">
+                                <div class="bacground-text-block">
+                                    <p>2:19</p>
+                                </div>
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar netflix">
+                                    <img src="../Images/netflix logo.svg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>Bridgerton Season 3 | Part 2 Official Trailer | Netflix</h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>Netflix</p>
+                                            </div>
+                                            <div class="creator-logo">
+                                                <img src="../Images/verified.svg" alt="official artist channel">
+                                            </div>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>3.1M views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>2 days ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="content-container">
+                            <div class="background-image sumisola">
+                                <div class="bacground-text-block">
+                                    <p>26:07</p>
+                                </div>
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/sumisola img.jpeg">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>SUNMISOLA LIVE/ PROPHETIC WORSHIP MEDLEY</h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>SUNMISOLA AGBEBI
+                                                </p>
+                                            </div>
+                                            <div class="creator-logo">
+                                                <img src="../Images/verified.svg" alt="official artist channel">
+                                            </div>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>2.9M views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>1 year ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="content-container">
+                            <div class="background-image communion-service">
+                                <div class="bacground-text-block">
+                                    <p>49:00</p>
+                                </div>
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/PC.jpeg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>June 2024 is “The Month Of Prayer” - Pastor Chris declares
+                                        </h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>WatchPastorChris
+                                                </p>
+                                            </div>
+                                            <div class="creator-logo">
+                                                <img src="../Images/verified.svg" alt="official artist channel">
+                                            </div>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>25k views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>Streamed 1 day ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="content-container">
+                            <div class="background-image monster-story">
+                                <div class="bacground-text-block">
+                                    <p>11:56</p>
+                                </div>
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/bs logo.jpeg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title">
+                                        <h1>The Controversial Rise Of Monster Energy
+                                        </h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>
+                                                    Business Stories
+                                                </p>
+                                            </div>
+                                            <!-- <div class="creator-logo">
                                     <img src="../Images/music/solid.svg" alt="official artist channel">
                                 </div> -->
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>85k views</p>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>85k views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>1 year ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>1 year ago</p>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
-                        </div>
-                    </div>
 
-                </div>
+                        </div>
 
-                <div class="content-container">
-                    <div class="background-image 
+                        <div class="content-container">
+                            <div class="background-image 
                     edgykatrina">
-                        <div class="bacground-text-block">
-                            <p>3:54</p>
-                        </div>
-                    </div>
-                    <div class="avatar-and-info-container">
-                        <div class="content-avatar">
-                            <img src="../Images/edgy.jpg" alt="creator's avatar">
-                        </div>
-                        <div class="content-info-containater">
-                            <div class="content-title edgy-text">
-                                <h1>how to design and print a poster (using adobe illustrator) | make your own wall art tutorial</h1>
-                            </div>
-                            <div class="creatorAndViewsinfo">
-                            <div class="content-creator-name-and-logo">
-                                <div class="creator-name">
-                                    <p>
-                                    edgykatrina
-                                    </p>
+                                <div class="bacground-text-block">
+                                    <p>3:54</p>
                                 </div>
-                                <!-- <div class="creator-logo">
+                            </div>
+                            <div class="avatar-and-info-container">
+                                <div class="content-avatar">
+                                    <img src="../Images/edgy.jpg" alt="creator's avatar">
+                                </div>
+                                <div class="content-info-containater">
+                                    <div class="content-title edgy-text">
+                                        <h1>how to design and print a poster (using adobe illustrator) | make your own
+                                            wall art tutorial</h1>
+                                    </div>
+                                    <div class="creatorAndViewsinfo">
+                                        <div class="content-creator-name-and-logo">
+                                            <div class="creator-name">
+                                                <p>
+                                                    edgykatrina
+                                                </p>
+                                            </div>
+                                            <!-- <div class="creator-logo">
                                     <img src="../Images/dev design logo.jpeg" alt="official artist channel">
                                 </div> -->
-                            </div>
-                            <div class="dot-divider dot-divider-mobile"></div>
-                            <div class="views-and-date-container">
-                                <div class="views">
-                                    <p>60k views</p>
+                                        </div>
+                                        <!-- <div class="dot-divider dot-divider-mobile"></div> -->
+                                        <div class="views-and-date-container">
+                                            <div class="views">
+                                                <p>60k views</p>
+                                            </div>
+                                            <div class="dot-divider"></div>
+                                            <div class="date-created">
+                                                <p>4 weeks ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="dot-divider"></div>
-                                <div class="date-created">
-                                    <p>4 weeks ago</p>
+                                <div class="content-info-ellipses">
+                                    <img src="../Images/Vertical Ellipses.svg" alt="more icon">
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        <div class="content-info-ellipses">
-                            <img src="../Images/Vertical Ellipses.svg" alt="more icon">
+
                         </div>
                     </div>
 
+
                 </div>
             </div>
-            
-            
         </div>
-    </div>
-    </div>
     </section>
 
-    
-        <nav class="bottomNav_container">
-            <!-- nav for home -->
-            <a href="#" class="NavItem">
-                <div class="icon">
-                    <img src="../Images/Home/solid.svg" alt="Home">
-                </div>
-                <div class="icon-text selectedIcon">
-                    <p>Home</p>
-                </div>
-            </a>
 
-             <!-- nav for Shorts -->
-            <a href="#" class="NavItem">
-                <div class="icon">
-                    <img src="../Images/shorts/outline.svg" alt="Shorts">
-                </div>
-                <div class="icon-text">
-                    <p>Shorts</p>
-                </div>
-            </a>
+    <nav class="bottomNav_container">
+        <!-- nav for home -->
+        <a href="#" class="NavItem">
+            <div class="icon">
+                <img src="../Images/Home/solid.svg" alt="Home">
+            </div>
+            <div class="icon-text selectedIcon">
+                <p>Home</p>
+            </div>
+        </a>
 
-             <!-- nav for subscriptions -->
-            <a href="#" class="NavItem">
-                <div class="icon">
-                    <img src="../Images/sub/outline.svg" alt="Subscriptions">
-                </div>
-                <div class="icon-text">
-                    <p>Subscriptions</p>
-                </div>
-            </a>
-             <!-- nav for avatar -->
-            <a href="#" class="NavItem">
-                <div class="icon avatarIcon">
-                    <img src="../Images/Avatar.jpg" alt="profic pic" />
-                </div>
-                <div class="icon-text">
-                    <p>You</p>
-                </div>
-            </a>
-           </nav>
-    
-  </body>
+        <!-- nav for Shorts -->
+        <a href="#" class="NavItem">
+            <div class="icon">
+                <img src="../Images/shorts/outline.svg" alt="Shorts">
+            </div>
+            <div class="icon-text">
+                <p>Shorts</p>
+            </div>
+        </a>
+
+        <!-- nav for subscriptions -->
+        <a href="#" class="NavItem">
+            <div class="icon">
+                <img src="../Images/sub/outline.svg" alt="Subscriptions">
+            </div>
+            <div class="icon-text">
+                <p>Subscriptions</p>
+            </div>
+        </a>
+        <!-- nav for avatar -->
+        <a href="#" class="NavItem">
+            <div class="icon avatarIcon">
+                <img src="../Images/Avatar.jpg" alt="profic pic" />
+            </div>
+            <div class="icon-text">
+                <p>You</p>
+            </div>
+        </a>
+    </nav>
+
+</body>
+
 </html>
